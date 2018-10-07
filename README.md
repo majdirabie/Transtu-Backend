@@ -20,7 +20,7 @@ Alternately, to quickly try out this repo in the cloud, you can
 #### MongoDB persistent store
 Basically the services stores data in an NeDB persistent file storage in the `./data` folder. If you have to use MongoDB, set the `MONGO_URI` environment variable.
 ```
-v
+
 MONGO_URI=mongodb://localhost/transtu
 ```
 
