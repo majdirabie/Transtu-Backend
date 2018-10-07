@@ -1,15 +1,9 @@
-# ![RealWorld Example App](rw-logo.png)
+# ![Transtu Example App]
 
-> ### [Moleculer](http://moleculer.services/) codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) spec and API.
+> ### [Moleculer](http://moleculer.services/) codebase containing transtu examples (CRUD, auth, advanced patterns, etc) that adheres to the [Transtu](https://github.com/gothinkster/realworld) spec and API.
 
 This repo is functionality complete — PRs and issues welcome!
 
-**Live demo on Glitch: https://realworld-moleculer.glitch.me**
-
-Glitch project: https://glitch.com/edit/#!/realworld-moleculer
-
-*[React + Redux](https://github.com/icebob/react-redux-realworld-example-app) front-end UI is included.*
-*For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.*
 
 ## Getting started
 
@@ -22,12 +16,12 @@ Glitch project: https://glitch.com/edit/#!/realworld-moleculer
 
 Alternately, to quickly try out this repo in the cloud, you can 
 
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/realworld-moleculer)
 
 #### MongoDB persistent store
 Basically the services stores data in an NeDB persistent file storage in the `./data` folder. If you have to use MongoDB, set the `MONGO_URI` environment variable.
 ```
-MONGO_URI=mongodb://localhost/conduit
+v
+MONGO_URI=mongodb://localhost/transtu
 ```
 
 #### Multiple instances
